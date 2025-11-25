@@ -9,7 +9,7 @@ export default function MobileFeaturedProducts() {
   return (
     <section className="w-full py-12 px-4 sm:px-8 bg-base-100">
       <h2 className="text-2xl sm:text-3xl font-extrabold text-center mb-4">
-        Popular Medical Equipment
+        Our Inventory Includes
       </h2>
       <p className="text-center text-sm text-base-content/70 mb-8">
         Trusted hospital and lab essentials — top picks for fast purchase.

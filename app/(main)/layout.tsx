@@ -1,11 +1,9 @@
 import "../globals.css";
-import { Geist, Geist_Mono } from "next/font/google";
-import CookieBanner from "../landingpagecomponents/CookieBanner";
-import CookieBannerMobile from "../landingpagecomponents/mobile/MobCookieBanner";
 import Navbar from "../landingpagecomponents/Navbar";
 import MobileNavbar from "../landingpagecomponents/mobile/MobNavbar";
 import { headers } from "next/headers";
 import { isMobile } from "../landingpagecomponents/mobile/ismobile";
+import Footer from "../landingpagecomponents/Footer";
 
 
 export default async function MainLayout({ children }: { children: React.ReactNode }) {
@@ -18,6 +16,7 @@ export default async function MainLayout({ children }: { children: React.ReactNo
         <div className="flex flex-col bg-base-200 min-h-screen">
             {mobileCheck ? <MobileNavbar /> : <Navbar />}
             <main>{children}</main>
+            <Footer />
         </div>
     );
 }

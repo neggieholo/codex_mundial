@@ -8,7 +8,7 @@ export default function FeaturedProductsPreview() {
   return (
     <section className="w-full py-12 px-4 sm:px-8 bg-base-100">
       <h2 className="text-2xl sm:text-3xl font-extrabold text-start mb-6">
-        Popular Medical Equipment
+        Our Inventory Includes
       </h2>
       <p className="text-base text-base-content/70 mb-10 w-full sm:w-[70%]">
         Explore our most requested medical tools, trusted by hospitals, labs, and clinics
