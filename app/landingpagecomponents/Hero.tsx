@@ -52,10 +52,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="w-full min-h-[90vh] overflow-hidden flex flex-col justify-center items-center relative">
-      <NavBarCopy />
-
-      {/* Slides container */}
+    <section className="w-full min-h-[80vh] overflow-hidden flex flex-col justify-center items-center relative">
       <div className="relative w-full flex-1">
         {slides.map((slide, index) => (
           <div

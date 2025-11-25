@@ -62,9 +62,7 @@ export default function MobileHero() {
   };
 
   return (
-    <section className="w-full min-h-[70vh] overflow-hidden flex flex-col relative">
-      <MobNavCopy />
-
+    <section className="w-full min-h-[65vh] overflow-hidden flex flex-col relative">
         <div className="relative w-full flex-1">
         {slides.map((s, idx) => (
             <div

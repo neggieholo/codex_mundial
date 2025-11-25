@@ -4,6 +4,8 @@ import MobileNavbar from "../landingpagecomponents/mobile/MobNavbar";
 import { headers } from "next/headers";
 import { isMobile } from "../landingpagecomponents/mobile/ismobile";
 import Footer from "../landingpagecomponents/Footer";
+import NavBarCopy from "../utlis/NavBarCopy";
+import MobNavCopy from "../utlis/MobNavCopy";
 
 
 export default async function MainLayout({ children }: { children: React.ReactNode }) {
@@ -15,7 +17,10 @@ export default async function MainLayout({ children }: { children: React.ReactNo
     return (
         <div className="flex flex-col bg-base-200 min-h-screen">
             {mobileCheck ? <MobileNavbar /> : <Navbar />}
-            <main>{children}</main>
+            <main>
+                {mobileCheck ? <MobNavCopy /> : <NavBarCopy />}
+                {children}
+            </main>
             <Footer />
         </div>
     );

@@ -69,7 +69,7 @@ const MobileDropdownMenu = () => {
 
         <li className="w-full border-b border-base-300">
           <a
-            href="#products"
+            href="/products"
             className="block w-full py-4 hover:bg-primary hover:text-primary-content transition-all"
             onClick={() => setOpen(false)}
           >

@@ -112,3 +112,10 @@ export interface Task {
 }
 
 
+export interface EquipmentItem {
+  id: number;
+  category: string;
+  item: string;
+  notes: string;
+  imageUrl: string;
+}

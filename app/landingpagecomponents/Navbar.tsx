@@ -16,7 +16,7 @@ export default function Navbar() {
             </div>
             <div className="hidden md:flex flex-1 justify-end bg-primary text-white space-x-8 text-lg w-full py-1 px-2 border-b-4 border-secondary">
                 <a href="#features" className="hover:bg-white hover:text-primary font-medium p-1">Home</a>
-                <a href="#how-it-works" className="hover:bg-white hover:text-primary font-medium p-1">Products</a>
+                <a href="/products" className="hover:bg-white hover:text-primary font-medium p-1">Products</a>
                 <div className="dropdown dropdown-hover p-1 hover:bg-white hover:text-primary">
                     <label tabIndex={0} className="font-medium cursor-pointer">
                         About Us
