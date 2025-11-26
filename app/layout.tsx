@@ -11,12 +11,29 @@ import type { Metadata } from "next";
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
+// app/layout.tsx
 export const metadata: Metadata = {
-  title: "Codex Mundial Ltd - Medical Equipment Supplies",
-  description: "Supplies and equipment for medical facilities, hospitals, and labs.",
-  keywords: ["medical equipment", "hospital supplies", "Codex Mundial"],
-  authors: [{ name: "Codex Mundial Ltd" }],
+  title: "Codex Mundial",
+  description: "Codex Mundial provides high-quality medical equipment and healthcare supplies for hospitals, clinics, and laboratories.",
+  keywords: [
+    "medical equipment",
+    "healthcare supplies",
+    "hospital equipment",
+    "medical devices",
+    "laboratory instruments",
+    "Codex Mundial"
+  ],
+  authors: [{ name: "Codex Mundial", url: "https://codexmundial.com" }],
+  openGraph: {
+    title: "Codex Mundial",
+    description: "Premium provider of medical equipment and healthcare supplies for hospitals, clinics, and labs.",
+    url: "https://codexmundial.com",
+    siteName: "Codex Mundial",
+    locale: "en_US",
+    type: "website",
+  },
 };
+
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
     const headersList = await headers();

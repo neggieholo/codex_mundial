@@ -27,64 +27,43 @@ const MobileDropdownMenu = () => {
 
       <ul className="menu dropdown-content mt-3 shadow bg-base-100 rounded-box w-[340px] flex flex-col text-center font-semibold text-lg right-0 left-auto mx-auto">
         <li className="w-full border-b border-base-300">
-          <a
-            href="#features"
+          <Link
+            href="/"
             className="block w-full py-4 hover:bg-primary hover:text-primary-content transition-all"
             onClick={() => setOpen(false)}
           >
             Home
-          </a>
+          </Link>
         </li>
 
         <li className="w-full border-b border-base-300">
-          {/* About Us with plus and submenu */}
-          <details className="group">
-            <summary className="flex justify-between items-center cursor-pointer py-4 px-2 hover:bg-primary hover:text-primary-content transition-all">
-              About Us
-            </summary>
-            <ul className="pl-4 flex flex-col bg-base-100">
-              <li>
-                <Link href="/about/company" onClick={() => setOpen(false)} className="block py-3 hover:text-primary">
-                  Company
-                </Link>
-              </li>
-              <li>
-                <Link href="/about/team" onClick={() => setOpen(false)} className="block py-3 hover:text-primary">
-                  Team
-                </Link>
-              </li>
-              <li>
-                <Link href="/about/mission" onClick={() => setOpen(false)} className="block py-3 hover:text-primary">
-                  Mission
-                </Link>
-              </li>
-              <li>
-                <Link href="/about/careers" onClick={() => setOpen(false)} className="block py-3 hover:text-primary">
-                  Careers
-                </Link>
-              </li>
-            </ul>
-          </details>
-        </li>
-
-        <li className="w-full border-b border-base-300">
-          <a
+          <Link
             href="/products"
             className="block w-full py-4 hover:bg-primary hover:text-primary-content transition-all"
             onClick={() => setOpen(false)}
           >
             Products
-          </a>
+          </Link>
+        </li>
+        
+        <li className="w-full border-b border-base-300">
+          <Link
+            href="/aboutUs"
+            className="block w-full py-4 hover:bg-primary hover:text-primary-content transition-all"
+            onClick={() => setOpen(false)}
+          >
+            About Us
+          </Link>
         </li>
 
         <li className="w-full border-b border-base-300">
-          <a
-            href="#contact"
+          <Link
+            href="/contactUs"
             className="block w-full py-4 hover:bg-primary hover:text-primary-content transition-all"
             onClick={() => setOpen(false)}
           >
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </details>

@@ -2,7 +2,6 @@
 
 import React from 'react';
 import Image from 'next/image';
-import NavBarCopy from '@/app/utlis/NavBarCopy';
 import { EquipmentItem as Product } from '@/app/utlis/interfaces';
 import Link from 'next/link';
 
