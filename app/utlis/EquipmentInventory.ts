@@ -20,7 +20,7 @@ export const EquipmentInventory: EquipmentItem[] = [
     "category": "Diagnostics & Monitoring",
     "item": "Accu CHEK sugar meter",
     "notes": "Ultra-Fast 4-Second Result Time. Requires a minimal blood sample (≤0.6μL) for less painful testing. Features PC Connectivity and Date/Time Stamped Memory for tracking patient glucose trends.",
-    "imageUrl": "/images/accu-chek.jpg"
+    "imageUrl": "/images/accu-chek.png"
   },
   {
     "id": 4,
@@ -62,7 +62,7 @@ export const EquipmentInventory: EquipmentItem[] = [
     "category": "Laboratory & Scientific",
     "item": "Centrifuge bucket",
     "notes": "Focus on Durable, Balanced Construction and chemical resistance. Essential component for high-speed centrifugation, compatible with various rotors and adapters.",
-    "imageUrl": "/images/centrifuge-bucket-standard.jpg"
+    "imageUrl": "/images/centrifuge-bucket-standard.png"
   },
   {
     "id": 10,
@@ -76,35 +76,35 @@ export const EquipmentInventory: EquipmentItem[] = [
     "category": "Laboratory & Scientific",
     "item": "Blood group reagents",
     "notes": "Guaranteed High Specificity and Titer Strength for reliable and clear agglutination results. Must be stored under Strict Cold Chain Conditions (as specified) to maintain viability.",
-    "imageUrl": "/images/blood-reagents.jpg"
+    "imageUrl": "/images/blood-reagents.webp"
   },
   {
     "id": 12,
     "category": "Critical Care & Respiratory",
     "item": "Oxygen concentrator",
     "notes": "Guarantees Stable 93% ± 3% Oxygen Purity across all flow settings (up to 5 LPM). Engineered for Continuous Duty Cycle and features Low Noise Operation (≤45 dB) suitable for quiet ward environments.",
-    "imageUrl": "/images/oxygen-concentrator.jpg"
+    "imageUrl": "/images/oxygen-concentrator.webp"
   },
   {
     "id": 13,
     "category": "Critical Care & Respiratory",
     "item": "Double suction machine",
     "notes": "Powered by an Oil-Free Piston Pump requiring zero daily maintenance. Delivers High Negative Pressure (≥ -0.09 MPa) and features Twin 2.5L Jars for high-volume, continuous fluid aspiration in surgery/ER.",
-    "imageUrl": "/images/double-suction.jpg"
+    "imageUrl": "/images/double-suction.jpeg"
   },
   {
     "id": 14,
     "category": "Critical Care & Respiratory",
     "item": "ETT",
     "notes": "Focus on High-volume, low-pressure cuff for secure sealing and minimized tracheal wall trauma. Includes radio-opaque line for X-ray confirmation.",
-    "imageUrl": "/images/ett-tube.jpg"
+    "imageUrl": "/images/ett-tube.webp"
   },
   {
     "id": 15,
     "category": "Critical Care & Respiratory",
     "item": "Guedel airway",
     "notes": "Emphasize Anatomically correct profile and bite block reinforcement to prevent collapse. Color-coded sizing for rapid selection.",
-    "imageUrl": "/images/guedel-airway.jpg"
+    "imageUrl": "/images/guedel-airway.webp"
   },
   {
     "id": 16,
@@ -130,9 +130,9 @@ export const EquipmentInventory: EquipmentItem[] = [
   {
     "id": 19,
     "category": "Surgical & Operating Theatre",
-    "item": "Surgeon stood",
+    "item": "Surgeon stool",
     "notes": "Constructed from Heavy-Duty, Surgical-Grade Stainless Steel. Features a wide platform with a Non-Slip Rubber Mat and base ring for maximum stability and safety during prolonged standing.",
-    "imageUrl": "/images/surgeon-stood.jpg"
+    "imageUrl": "/images/surgeon-stool.jpg"
   },
   {
     "id": 20,
@@ -153,7 +153,7 @@ export const EquipmentInventory: EquipmentItem[] = [
     "category": "Patient Care & Furniture",
     "item": "Ward screen",
     "notes": "Features Opaque, Fire-Retardant Panel Material attached to a Lightweight, Folding Aluminum Frame. Equipped with Durable Dual Casters for smooth, quiet relocation and instant privacy setup.",
-    "imageUrl": "/images/ward-screen.jpg"
+    "imageUrl": "/images/ward-screen.webp"
   },
   {
     "id": 23,
@@ -181,14 +181,14 @@ export const EquipmentInventory: EquipmentItem[] = [
     "category": "Patient Care & Furniture",
     "item": "Bed side locker",
     "notes": "Built with High-Pressure Laminate on all external surfaces for scratch and moisture resistance. Includes a Secure Lockable Drawer and a lower cabinet for patient valuables and storage.",
-    "imageUrl": "/images/bed-side-locker.jpg"
+    "imageUrl": "/images/bed-side-locker.webp"
   },
   {
     "id": 27,
     "category": "Mobility & Transport",
     "item": "Wheelchair",
     "notes": "Features a Reinforced, Foldable Chrome-Plated Steel Frame with a high weight capacity. Equipped with Puncture-Proof Solid Rear Wheels and ergonomic hand rims for patient self-propulsion.",
-    "imageUrl": "/images/wheelchair.jpg"
+    "imageUrl": "/images/wheelchair.webp"
   },
   {
     "id": 28,
@@ -209,28 +209,28 @@ export const EquipmentInventory: EquipmentItem[] = [
     "category": "Mobility & Transport",
     "item": "Drip stand",
     "notes": "Telescopic Pole with a height range of 120 cm to 200 cm. Supported by a Heavy, Anti-Tip Base (often five-legged with casters) and features Four Stainless Steel Hooks capable of supporting multiple infusions.",
-    "imageUrl": "/images/drip-stand.jpg"
+    "imageUrl": "/images/drip-stand.jpeg"
   },
   {
     "id": 31,
     "category": "Consumables & Labware",
     "item": "Plain vacutainer",
     "notes": "Sterile, Medical-Grade Plastic with a proven Leak-Proof Seal. Features Accurate Draw Volumes and a tamper-evident cap for sample transportation safety.",
-    "imageUrl": "/images/plain-vacutainer.jpg"
+    "imageUrl": "/images/plain-vacutainer.png"
   },
   {
     "id": 32,
     "category": "Consumables & Labware",
     "item": "Non vacuum plain bottle",
     "notes": "Focus on high-quality, clear plastic/glass construction and secure screw-cap closure. Ideal for non-vacuum collection or urine/stool samples requiring leak-proof transport.",
-    "imageUrl": "/images/non-vacuum-plain-bottle.jpg"
+    "imageUrl": "/images/non-vacuum-plain-bottle.png"
   },
   {
     "id": 33,
     "category": "Consumables & Labware",
     "item": "Non vacuum EDTA",
     "notes": "Supplied with precise K2 or K3 EDTA concentrations for manual pipetting and mixing. Used where vacuum draw is not required or for specialized manual collection protocols.",
-    "imageUrl": "/images/non-vacuum-edta.jpg"
+    "imageUrl": "/images/non-vacuum-edta.webp"
   },
   {
     "id": 34,
@@ -251,7 +251,7 @@ export const EquipmentInventory: EquipmentItem[] = [
     "category": "Consumables & Labware",
     "item": "Capillary tubes",
     "notes": "Precision Bore Size and Uniform Length for accurate micro-hematocrit determination. Offered in both Heparinized (red tip) and Non-Heparinized (blue tip) options.",
-    "imageUrl": "/images/capillary-tubes.jpg"
+    "imageUrl": "/images/capillary-tubes.webp"
   },
   {
     "id": 37,
@@ -265,6 +265,55 @@ export const EquipmentInventory: EquipmentItem[] = [
     "category": "Lighting & Accessories",
     "item": "Angle poise lamp",
     "notes": "Features a highly Mobile, Multi-Jointed Articulated Arm allowing 360-degree positioning. Emphasizes smooth movement and stability in any position for detailed inspection or minor procedures.",
-    "imageUrl": "/images/angle-poise-lamp.jpg"
+    "imageUrl": "/images/angle-poise-lamp.webp"
+  },
+  {
+    "id": 39,
+    "category": "Surgical & Operating Theatre",
+    "item": "Anaesthesia machine",
+    "notes": "Advanced gas delivery system with integrated patient monitoring for gases, pressure, and ventilation. Features a fail-safe oxygen supply and modern vaporizer management.",
+    "imageUrl": "/images/anaesthesia-machine.jpg"
+  },
+  {
+    "id": 40,
+    "category": "Diagnostics & Monitoring",
+    "item": "Fetal Doppler",
+    "notes": "Handheld, high-sensitivity probe for monitoring fetal heart rate from as early as 12 weeks. Features a built-in speaker and headphone jack for sharing or private use.",
+    "imageUrl": "/images/fetal-doppler.jpg"
+  },
+  {
+    "id": 41,
+    "category": "Laboratory & Scientific",
+    "item": "Microscope",
+    "notes": "Binocular compound light microscope with professional plan achromatic objectives (4x, 10x, 40x, 100x). Features coarse and fine focusing knobs and adjustable LED illumination.",
+    "imageUrl": "/images/microscope.webp"
+  },
+  {
+    "id": 42,
+    "category": "Patient Care & Furniture",
+    "item": "Hospital bed",
+    "notes": "Fully electric bed with four motorized functions (backrest, knee lift, Hi-Low, Trendelenburg). Includes integrated control panel, locking side rails, and central braking system.",
+    "imageUrl": "/images/electric-hospital-bed.jpg"
+  },
+  {
+    "id": 43,
+    "category": "Critical Care & Respiratory",
+    "item": "Single suction machine",
+    "notes": "Portable, low-maintenance unit ideal for emergency and home care. Features adjustable vacuum regulator, overflow protection, and a single high-capacity collection bottle.",
+    "imageUrl": "/images/single-suction-machine.jpg"
+  },
+  {
+    "id": 44,
+    "category": "Imaging & Documentation",
+    "item": "Sony printer",
+    "notes": "Digital thermal color printer, compatible with ultrasound/endoscopy/radiology systems. Produces high-quality, durable prints in seconds for patient records and referral.",
+    "imageUrl": "/images/sony-medical-printer.jpg"
+  },
+  {
+    "id": 45,
+    "category": "Diagnostics & Monitoring",
+    "item": "Scale with height",
+    "notes": "Professional digital weighing scale with integrated height rod (stadiometer). Features high accuracy, large LCD display, and BMI calculation capability.",
+    "imageUrl": "/images/scale-with-height.jpg"
   }
 ]

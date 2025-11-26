@@ -12,7 +12,7 @@ interface Props {
 const ProductDetailClient: React.FC<Props> = ({ product }) => {
   return (
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900 pt-8">
-        <div className="w-[70%] mx-auto bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+        <div className="w-[70%] mx-auto my-8 bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
           {/* Product Image */}
           <div className="relative w-full h-80 mb-6 rounded-lg overflow-hidden">
             <Image

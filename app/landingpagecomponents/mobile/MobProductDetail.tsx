@@ -14,7 +14,7 @@ const ProductDetailMobile: React.FC<Props> = ({ product }) => {
   return (    
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900 pt-4 px-3">
         {/* Container */}
-        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-4">
+        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-4  mt-1">
 
           {/* Product Image */}
           <div className="relative w-full h-72 mb-4 rounded-lg overflow-hidden">
