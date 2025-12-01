@@ -89,7 +89,7 @@ const Footer: React.FC = () => {
                 <p className="flex items-center text-gray-400">
                     <Phone className="h-5 w-5 mr-3 tex shrink-0" />
                     <span className="font-bold text-lg hover:text-white transition duration-150">
-                        +234 800 123 4567
+                        +234 909 150 1591
                     </span>
                 </p>
                 <p className="flex items-center text-gray-400">
